@@ -7,15 +7,15 @@ public class Sistema {
 
 
     public static void menuPrincipal() {
-        System.out.println("|-=-=-=-=-=-=CALCULADORA-=-=-=-=-=-=|");
-        System.out.println("\tOperações disponíveis:");
-        System.out.println("\t+ : Soma");
-        System.out.println("\t- : Subtração");
-        System.out.println("\t* : Multiplicação");
-        System.out.println("\t/ : Divisão");
+        System.out.println("|-=-=-=-=-=-=CALCULADORA=-=-=-=-=-=-|");
+        System.out.println("|\tOperações disponíveis:\t\t\t|");
+        System.out.println("|\t+ : Soma\t\t\t\t\t\t|");
+        System.out.println("|\t- : Subtração\t\t\t\t\t|");
+        System.out.println("|\t* : Multiplicação\t\t\t\t|");
+        System.out.println("|\t/ : Divisão\t\t\t\t\t\t|");
         /*System.out.println("\t^ : Potência");
         System.out.println("\tr : Raiz Quadrada");*/
-        System.out.println("|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=|");
+        System.out.println("|-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-|");
     }
 
     public static void calcularResultado(String operacao, double a, double b) {
@@ -85,7 +85,7 @@ public class Sistema {
 
             flag = permanecerNaCalculadora(scanner);
         }
-        
+
     }
 
 }
